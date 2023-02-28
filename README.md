@@ -10,7 +10,7 @@ So i want to follow the steps and documentation in a libvirt lab to install SNO 
 
 Here's what i did for OpenShift 4.12 including my commands for a `Cluster.0` lab. 
 
-I used a FC27 base VM host and a RHEL8 quay mirror host to install a SNO 4.12 cluster.
+I used a FC37 base VM host and a RHEL8 quay mirror host to install a SNO 4.12 cluster.
 
 ## Steps for Deploying a Disconnected Cluster
 
