@@ -433,7 +433,7 @@ I used a FC37 base VM host and a RHEL8 quay mirror host to install a SNO 4.12 cl
    podman ps
    ```
 
-   Any fatal errors you see in the journal will need troubleshooting. It took several attempts until i got my configuration just right for a successful instal.
+   Any fatal errors you see in the journal will need troubleshooting. It took several attempts until i got my configuration just right for a successful install.
 
 14. On each host, the startup script in the image selects the correct
     network settings based on the MAC addresses visible and applies
