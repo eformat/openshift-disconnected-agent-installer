@@ -332,6 +332,14 @@ I used a FC37 base VM host and a RHEL8 quay mirror host to install a SNO 4.12 cl
    cp install-config.yaml agent-config.yaml cluster/
    ```
 
+   Note: Disconnected NTP servers may also need to be configured in the [agent config](https://github.com/openshift/installer/blob/master/pkg/asset/agent/agentconfig/agent_config.go#L60-L62) else defaults to:
+
+   ```yaml
+    additionalNTPSources:
+    - 0.rhel.pool.ntp.org
+    - 1.rhel.pool.ntp.org
+   ```
+
 6. The orchestration tool runs `openshift-install agent create image`.
 
    Run:
